@@ -1,6 +1,6 @@
 [package]
 name = "csearch"
-version = "0.1.0"
-authors = ["Pascal Hartig <phartig@rdrei.net>"]
+version = "0.0.1"
+authors = ["Pascal Hartig <i@passy.me>", "Daithi O Crualaoich <daithi.ocrualaoich@gmail.com>"]
 
 [dependencies]
