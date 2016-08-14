@@ -34,3 +34,6 @@ RUN    /root/.cargo/bin/cargo install cargo-outdated
 RUN    /root/.cargo/bin/cargo install cargo-graph
 RUN    /root/.cargo/bin/cargo install cargo-modules
 RUN    /root/.cargo/bin/cargo install cargo-count
+
+RUN    /root/.cargo/bin/rustup install nightly
+RUN    /root/.cargo/bin/rustup run nightly cargo install clippy
