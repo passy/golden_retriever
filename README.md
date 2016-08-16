@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/woofwoofinc/csearch.svg?branch=master)](https://travis-ci.org/woofwoofinc/csearch)
+[![Dependency Status](https://dependencyci.com/github/woofwoofinc/csearch/badge)](https://dependencyci.com/github/woofwoofinc/csearch)
 [![License](https://img.shields.io/github/license/woofwoofinc/csearch.svg)](https://github.com/woofwoofinc/csearch/blob/master/LICENSE)
 
 
