@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/woofwoofinc/csearch.svg?branch=master)](https://travis-ci.org/woofwoofinc/csearch)
 [![Dependency Status](https://dependencyci.com/github/woofwoofinc/csearch/badge)](https://dependencyci.com/github/woofwoofinc/csearch)
+[![Windows Build Status](https://ci.appveyor.com/api/projects/status/nve0g5owu810pi4w/branch/master?svg=true)](https://ci.appveyor.com/project/passy/csearch)
 [![License](https://img.shields.io/github/license/woofwoofinc/csearch.svg)](https://github.com/woofwoofinc/csearch/blob/master/LICENSE)
 
 
