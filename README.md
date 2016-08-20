@@ -54,8 +54,12 @@ easy with `rustup` - use the following to lint the repository:
 
 License
 -------
+This work is dual-licensed under the Apache License, Version 2.0 and under the
+MIT Licence.
 
-    Copyright [2016] [Woof Woof, Inc.]
+You may licence this work under the Apache License, Version 2.0.
+
+    Copyright 2016 Woof Woof, Inc. and contributors
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -68,3 +72,39 @@ License
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
+
+Alternatively, you may licence this work under the MIT Licence at your option.
+
+    Copyright (c) 2016 Woof Woof, Inc. and contributors
+    
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+    
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+    
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+
+The licence explainers at [Choose a License] may be helpful. They have 
+descriptions for both the [Apache 2.0 Licence] and [MIT Licence] conditions.
+
+[Choose a License]: http://choosealicense.com
+[Apache 2.0 Licence]: http://choosealicense.com/licenses/apache-2.0/
+[MIT Licence]: http://choosealicense.com/licenses/mit/
+
+
+Contribution
+------------
+Unless you explicitly state otherwise, any contribution intentionally submitted
+for inclusion in the work by you, as defined in the Apache-2.0 license, shall be
+dual licensed as above, without any additional terms or conditions.
