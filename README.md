@@ -1,16 +1,16 @@
-[![Build Status](https://travis-ci.org/woofwoofinc/csearch.svg?branch=master)](https://travis-ci.org/woofwoofinc/csearch)
-[![Dependency Status](https://dependencyci.com/github/woofwoofinc/csearch/badge)](https://dependencyci.com/github/woofwoofinc/csearch)
+[![Build Status](https://travis-ci.org/woofwoofinc/golden_retriever.svg?branch=master)](https://travis-ci.org/woofwoofinc/golden_retriever)
+[![Dependency Status](https://dependencyci.com/github/woofwoofinc/golden_retriever/badge)](https://dependencyci.com/github/woofwoofinc/golden_retriever)
 [![Windows Build Status](https://ci.appveyor.com/api/projects/status/nve0g5owu810pi4w/branch/master?svg=true)](https://ci.appveyor.com/project/passy/csearch)
-[![License](https://img.shields.io/github/license/woofwoofinc/csearch.svg)](https://github.com/woofwoofinc/csearch/blob/master/LICENSE)
+[![License](https://img.shields.io/github/license/woofwoofinc/golden_retriever.svg)](https://github.com/woofwoofinc/golden_retriever#license)
 
 
-CSearch
-=======
-Making Code Search Great Again.
+Golden Retriever
+================
+Yes we can... code search.
 
 
-Developing CSearch
-------------------
+Developing Golden Retriever
+---------------------------
 Install the [Rust] development tools on your system with [rustup] if they are
 not already available. Then build and test the project using:
 
@@ -23,17 +23,17 @@ not already available. Then build and test the project using:
 Docker
 ------
 A [Docker] container definition is provided with installations of the tools
-used to develop CSearch. To use the container, first install Docker if not
-already available and start a Docker terminal. Then create the container by
+used to develop Golden Retriever. To use the container, first install Docker if
+not already available and start a Docker terminal. Then create the container by
 running the following build at the top level of the repository source tree:
 
-    docker build --rm=true -t csearch .
+    docker build --rm=true -t golden_retriever .
 
 [Docker]: http://docker.io
 
 Once built, an interactive shell can be run in the container using:
 
-    docker run -it -v "$(pwd):/csearch" --workdir=/csearch csearch /bin/bash
+    docker run -it -v "$(pwd):/golden_retriever" --workdir=/golden_retriever golden_retriever /bin/bash
 
 The current working directory from the host machine is available as the current
 directory in the container so it is possible to build and test the library as
@@ -44,7 +44,7 @@ described earlier.
 
 Travis
 ------
-CSearch is continuously integrated on [Travis CI].
+Golden Retriever is continuously integrated on [Travis CI].
 
 To update encrypted credentials in the `.travis.yml` file, use the
 [Travis command line tool].
@@ -61,9 +61,9 @@ For instance, to update the Slack notification credential:
 
 Running Clippy Lints
 --------------------
-[Clippy] is a Rust linter. Currently it has to be run manually since CSearch
-targets Rust stable and Clippy requires Rust nightly. Switching versions is
-easy with `rustup` - use the following to lint the repository:
+[Clippy] is a Rust linter. Currently it has to be run manually since Golden
+Retriever targets Rust stable and Clippy requires Rust nightly. Switching
+versions is easy with `rustup` - use the following to lint the repository:
 
     rustup run nightly cargo clippy
 
