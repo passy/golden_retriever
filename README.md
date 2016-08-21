@@ -42,6 +42,23 @@ described earlier.
     cargo test
 
 
+Travis
+------
+CSearch is continuously integrated on [Travis CI].
+
+To update encrypted credentials in the `.travis.yml` file, use the
+[Travis command line tool].
+
+    gem install travis
+
+For instance, to update the Slack notification credential:
+
+    travis encrypt "woofwoofinc:<credential>" --add notifications.slack
+
+[Travis CI]: https://travis-ci.org
+[Travis command line tool]: https://docs.travis-ci.com/user/encryption-keys
+
+
 Running Clippy Lints
 --------------------
 [Clippy] is a Rust linter. Currently it has to be run manually since CSearch
