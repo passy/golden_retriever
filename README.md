@@ -121,8 +121,15 @@ descriptions for both the [Apache 2.0 Licence] and [MIT Licence] conditions.
 [MIT Licence]: http://choosealicense.com/licenses/mit/
 
 
-Contribution
+Contributing
 ------------
+Please note that this project is released with a [Contributor Code of Conduct].
+By participating in this project you agree to abide by its terms. Instances of 
+abusive, harassing, or otherwise unacceptable behavior may be reported by
+contacting the project team at woofwoofinc@gmail.com.
+
+[Contributor Code of Conduct]: CODE_OF_CONDUCT.md
+
 Unless you explicitly state otherwise, any contribution intentionally submitted
 for inclusion in the work by you, as defined in the Apache-2.0 license, shall be
 dual licensed as above, without any additional terms or conditions.
