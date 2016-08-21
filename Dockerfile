@@ -17,7 +17,7 @@ RUN     apt-get install -qq build-essential gcc
 ################################################################################
 
 RUN     apt-get install -qq ruby ruby-dev
-RUN     gem install travis
+RUN     gem install --no-ri --no-rdoc travis travis-lint
 
 
 ################################################################################
