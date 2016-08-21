@@ -34,14 +34,15 @@ RUN     apt-get install -qq ctags
 RUN    apt-get install -qq curl graphviz
 
 RUN    curl https://sh.rustup.rs -sSf | sh -s -- -y
-RUN    echo '\nexport PATH=$PATH:/root/.cargo/bin\n' >> /root/.bashrc
+ENV    CARGO_TARGET_DIR targetdocker
+ENV    PATH /root/.cargo/bin:$PATH
 
-RUN    /root/.cargo/bin/cargo install rustfmt
-RUN    /root/.cargo/bin/cargo install cargo-watch
-RUN    /root/.cargo/bin/cargo install cargo-outdated
-RUN    /root/.cargo/bin/cargo install cargo-graph
-RUN    /root/.cargo/bin/cargo install cargo-modules
-RUN    /root/.cargo/bin/cargo install cargo-count
+RUN    cargo install rustfmt
+RUN    cargo install cargo-watch
+RUN    cargo install cargo-outdated
+RUN    cargo install cargo-graph
+RUN    cargo install cargo-modules
+RUN    cargo install cargo-count
 
-RUN    /root/.cargo/bin/rustup install nightly
-RUN    /root/.cargo/bin/rustup run nightly cargo install clippy
+RUN    rustup install nightly
+RUN    rustup run nightly cargo install clippy
