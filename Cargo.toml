@@ -5,3 +5,7 @@ authors = ["Pascal Hartig <i@passy.me>", "Daithi O Crualaoich <daithi.ocrualaoic
 license = "MIT OR Apache-2.0"
 
 [dependencies]
+clap = "2"
+
+[[bin]]
+name = "golden-retriever-indexer"
