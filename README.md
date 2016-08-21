@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/woofwoofinc/golden_retriever.svg?branch=master)](https://travis-ci.org/woofwoofinc/golden_retriever)
 [![Dependency Status](https://dependencyci.com/github/woofwoofinc/golden_retriever/badge)](https://dependencyci.com/github/woofwoofinc/golden_retriever)
-[![Windows Build Status](https://ci.appveyor.com/api/projects/status/nve0g5owu810pi4w/branch/master?svg=true)](https://ci.appveyor.com/project/passy/csearch)
+[![Windows Build Status](https://ci.appveyor.com/api/projects/status/iel04o3riadomnsa/branch/master?svg=true)](https://ci.appveyor.com/project/passy/golden_retriever)
 [![License](https://img.shields.io/github/license/woofwoofinc/golden_retriever.svg)](https://github.com/woofwoofinc/golden_retriever#license)
 
 
