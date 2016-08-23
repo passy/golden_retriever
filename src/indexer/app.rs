@@ -1,10 +1,8 @@
-extern crate clap;
-use self::clap::{App, SubCommand};
+use clap::{App, SubCommand};
 
 pub fn make() -> App<'static, 'static> {
-    let version = env!("CARGO_PKG_VERSION");
     App::new("golden-retriever-indexer")
-        .version(version)
+        .version(crate_version!())
         .about("Golden Retriever Indexer")
         .subcommand(SubCommand::with_name("ls").about("list indexed directories"))
         .subcommand(SubCommand::with_name("add").about("add a new directory to be indexed"))
