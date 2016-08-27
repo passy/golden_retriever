@@ -27,11 +27,19 @@ used to develop Golden Retriever. To use the container, first install Docker if
 not already available and start a Docker terminal. Then create the container by
 running the following build at the top level of the repository source tree:
 
+    make docker
+
+You can also manually invoke the docker command if you want to customize it:
+
     docker build --rm=true -t grrr .
 
 [Docker]: http://docker.io
 
 Once built, an interactive shell can be run in the container using:
+
+    make shell
+
+Again, if you want to customize the command invoked, use this as your base:
 
     docker run -it -v "$(pwd):/grrr" --workdir=/grrr grrr /bin/bash
 
