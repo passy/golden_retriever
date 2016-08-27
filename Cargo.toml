@@ -3,5 +3,7 @@ name = "golden_retriever"
 version = "0.0.1"
 authors = ["Pascal Hartig <i@passy.me>", "Daithi O Crualaoich <daithi.ocrualaoich@gmail.com>"]
 license = "MIT OR Apache-2.0"
+repository = "https://github.com/woofwoofinc/golden_retriever"
+readme = "README.md"
 
 [dependencies]
