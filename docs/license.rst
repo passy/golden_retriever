@@ -1,24 +1,4 @@
-[![Build Status](https://travis-ci.org/woofwoofinc/golden_retriever.svg?branch=master)](https://travis-ci.org/woofwoofinc/golden_retriever)
-[![Dependency Status](https://dependencyci.com/github/woofwoofinc/golden_retriever/badge)](https://dependencyci.com/github/woofwoofinc/golden_retriever)
-[![Windows Build Status](https://ci.appveyor.com/api/projects/status/iel04o3riadomnsa/branch/master?svg=true)](https://ci.appveyor.com/project/passy/golden_retriever)
-[![License](https://img.shields.io/badge/license-Apache--2.0%20OR%20MIT-blue.svg)](https://github.com/woofwoofinc/golden_retriever#license)
-
-
-Golden Retriever
-================
-Yes we can... code search.
-
-
-Developing Golden Retriever
----------------------------
-Install the [Rust] development tools on your system with [rustup] if they are
-not already available. Then build and test the project using:
-
-    cargo test
-
-[Rust]: https://www.rust-lang.org
-[rustup]: https://www.rustup.rs
-
+.. _license:
 
 License
 -------
@@ -26,6 +6,8 @@ This work is dual-licensed under the Apache License, Version 2.0 and under the
 MIT Licence.
 
 You may licence this work under the Apache License, Version 2.0.
+
+::
 
     Copyright 2016 Woof Woof, Inc. and contributors
 
@@ -42,6 +24,8 @@ You may licence this work under the Apache License, Version 2.0.
     limitations under the License.
 
 Alternatively, you may licence this work under the MIT Licence at your option.
+
+::
 
     Copyright (c) 2016 Woof Woof, Inc. and contributors
     
@@ -63,23 +47,9 @@ Alternatively, you may licence this work under the MIT Licence at your option.
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
 
-The licence explainers at [Choose a License] may be helpful. They have 
-descriptions for both the [Apache 2.0 Licence] and [MIT Licence] conditions.
+The licence explainers at `Choose a License`_ may be helpful. They have 
+descriptions for both the `Apache 2.0 Licence`_ and `MIT Licence`_ conditions.
 
-[Choose a License]: http://choosealicense.com
-[Apache 2.0 Licence]: http://choosealicense.com/licenses/apache-2.0/
-[MIT Licence]: http://choosealicense.com/licenses/mit/
-
-
-Contributing
-------------
-Please note that this project is released with a [Contributor Code of Conduct].
-By participating in this project you agree to abide by its terms. Instances of 
-abusive, harassing, or otherwise unacceptable behavior may be reported by
-contacting the project team at woofwoofinc@gmail.com.
-
-[Contributor Code of Conduct]: docs/conduct.rst
-
-Unless you explicitly state otherwise, any contribution intentionally submitted
-for inclusion in the work by you, as defined in the Apache-2.0 license, shall be
-dual licensed as above, without any additional terms or conditions.
+.. _Choose a License: http://choosealicense.com
+.. _Apache 2.0 Licence: http://choosealicense.com/licenses/apache-2.0/
+.. _MIT Licence: http://choosealicense.com/licenses/mit/
