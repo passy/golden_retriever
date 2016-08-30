@@ -21,6 +21,22 @@ RUN     gem install --no-ri --no-rdoc travis travis-lint
 
 
 ################################################################################
+# git
+################################################################################
+
+RUN     apt-get install -qq git
+
+
+################################################################################
+# Sphinx
+################################################################################
+
+RUN     apt-get install -qq python2.7 python2.7-dev python-pip
+RUN     pip install Sphinx
+RUN     pip install sphinx_bootstrap_theme
+
+
+################################################################################
 # ctags
 ################################################################################
 
@@ -31,7 +47,7 @@ RUN     apt-get install -qq ctags
 # Rust
 ################################################################################
 
-RUN    apt-get install -qq curl graphviz
+RUN    apt-get install -qq curl graphviz cmake libssl-dev
 
 RUN    curl https://sh.rustup.rs -sSf | sh -s -- -y
 ENV    CARGO_TARGET_DIR targetdocker
@@ -43,6 +59,7 @@ RUN    cargo install cargo-outdated
 RUN    cargo install cargo-graph
 RUN    cargo install cargo-modules
 RUN    cargo install cargo-count
+RUN    cargo install cargo-sphinx
 
 RUN    rustup install nightly
 RUN    rustup run nightly cargo install clippy
