@@ -7,3 +7,7 @@ repository = "https://github.com/woofwoofinc/golden_retriever"
 readme = "README.md"
 
 [dependencies]
+clap = "2"
+
+[[bin]]
+name = "golden-retriever-indexer"
